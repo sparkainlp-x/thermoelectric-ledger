@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "thermoelectric-ledger: signed heat-flow accounting with withheld exergy and efficiency"
+message: "If you use this software, please cite it using these metadata."
+type: software
+authors:
+  - family-names: Brisson
+    given-names: Jean-François
+    affiliation: "Spark AI NLP, Fredericton, New Brunswick, Canada"
+    email: partnerships@sparkainlp.com
+    orcid: "https://orcid.org/0009-0000-9778-5374"
+repository-code: "https://github.com/sparkainlp-x/thermoelectric-ledger"
+url: "https://sparkainlpx.xyz"
+abstract: >-
+  Research software that preserves signed electrical and hot-side heat-flow
+  readings, exposes each uncertainty-adjusted heat-flow lower bound, and
+  withholds Carnot/exergy and efficiency when those preconditions are
+  unresolved. It is not a measurement campaign and not a thermoelectric
+  device; it makes no claim that any device delivers more energy than it
+  absorbs, and it is not a clinical or computing-hardware product.
+  Synthetic demos are labelled and never receive an efficiency claim.
+keywords:
+  - research software
+  - thermoelectric
+  - heat-flow ledger
+  - uncertainty bounds
+  - exergy ceiling
+  - signed measurements
+  - New Brunswick
+license: MIT
+version: "0.1.0"
+date-released: "2026-10-06"

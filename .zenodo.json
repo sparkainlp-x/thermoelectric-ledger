@@ -1,0 +1,37 @@
+{
+  "upload_type": "software",
+  "title": "thermoelectric-ledger: signed heat-flow accounting with withheld exergy and efficiency",
+  "version": "0.1.0",
+  "description": "<p>This is research software for audit-style accounting of signed electrical and hot-side heat-flow samples. It is not a measurement campaign and not a thermoelectric generator. It makes no claim that any device delivers more energy than it absorbs, and it is not a clinical or computing-hardware product. Synthetic demos are labelled SYNTHETIC_DEMO_NOT_MEASUREMENT and never receive an efficiency claim.</p><p>The ledger keeps signed readings, never clips negative heat flow, and reports each uncertainty-adjusted hot-side lower bound. A Carnot/exergy ceiling is computed only when every sample lower bound is strictly positive and the forward temperature gradient is resolved under the stated uncertainty. Efficiency is reported only when net heat input remains positive after its uncertainty bound. Otherwise status is not_computed or not_reported, with a structured reason.</p><p>Python 3. Run the contract tests before citing a number. License: MIT. Related synthetic illustration, not this ledger: https://github.com/sparkainlp-x/residual-gradient-workbench (DOI 10.5281/zenodo.23187280).</p>",
+  "creators": [
+    {
+      "name": "Brisson, Jean-François",
+      "affiliation": "Spark AI NLP, Fredericton, New Brunswick, Canada",
+      "orcid": "0009-0000-9778-5374"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "language": "eng",
+  "keywords": [
+    "research software",
+    "thermoelectric",
+    "heat-flow ledger",
+    "uncertainty bounds",
+    "exergy ceiling",
+    "signed measurements",
+    "New Brunswick"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/sparkainlp-x/thermoelectric-ledger",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23187280",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "data_kind": "synthetic_demo",
+  "run_id": "synthetic-demo-001",
+  "description": "SYNTHETIC demonstration record. Every number in this file was typed by hand to exercise the ledger; none of it is a measurement.",
+  "metadata": {
+    "units": {
+      "timestamp_s": "s",
+      "hot_face_temperature": "K",
+      "cold_face_temperature": "K",
+      "load_voltage": "V",
+      "load_current": "A",
+      "hot_heat_flow": "W",
+      "oes_residual": "dimensionless"
+    },
+    "electrical_sign_convention": "positive_voltage_times_current_means_power_delivered_to_load",
+    "hot_heat_flow_sign_convention": "positive_heat_flow_means_heat_entering_module_hot_face",
+    "heat_flow_status": "illustrative",
+    "uncertainty_model": "conservative_absolute_error_bounds_per_reading",
+    "calibration_references": {
+      "temperature": "SYNTHETIC: no instrument",
+      "voltage_current": "SYNTHETIC: no instrument",
+      "hot_heat_flow": "SYNTHETIC: no instrument"
+    },
+    "calibration_uncertainty_bounds": {
+      "timestamp_s": 0.001,
+      "voltage_V": 0.01,
+      "current_A": 0.005,
+      "hot_temperature_K": 0.5,
+      "cold_temperature_K": 0.5,
+      "hot_heat_flow_W": 0.5
+    }
+  },
+  "samples": [
+    {
+      "timestamp_s": 0.0,
+      "hot_face_temperature_K": 350.0,
+      "cold_face_temperature_K": 300.0,
+      "load_voltage_V": 1.0,
+      "load_current_A": 0.3,
+      "hot_heat_flow_W": 10.0,
+      "oes": {
+        "residual": null,
+        "worst_component": null,
+        "event": null
+      }
+    },
+    {
+      "timestamp_s": 1.0,
+      "hot_face_temperature_K": 351.0,
+      "cold_face_temperature_K": 300.2,
+      "load_voltage_V": 1.01,
+      "load_current_A": 0.3,
+      "hot_heat_flow_W": 10.2,
+      "oes": {
+        "residual": null,
+        "worst_component": null,
+        "event": null
+      }
+    },
+    {
+      "timestamp_s": 2.0,
+      "hot_face_temperature_K": 352.0,
+      "cold_face_temperature_K": 300.1,
+      "load_voltage_V": 1.02,
+      "load_current_A": 0.31,
+      "hot_heat_flow_W": 10.4,
+      "oes": {
+        "residual": 0.012,
+        "worst_component": 7,
+        "event": "synthetic_marker"
+      }
+    },
+    {
+      "timestamp_s": 3.0,
+      "hot_face_temperature_K": 351.5,
+      "cold_face_temperature_K": 300.3,
+      "load_voltage_V": 1.01,
+      "load_current_A": 0.3,
+      "hot_heat_flow_W": 10.3,
+      "oes": {
+        "residual": null,
+        "worst_component": null,
+        "event": null
+      }
+    },
+    {
+      "timestamp_s": 4.0,
+      "hot_face_temperature_K": 350.5,
+      "cold_face_temperature_K": 300.0,
+      "load_voltage_V": 1.0,
+      "load_current_A": 0.3,
+      "hot_heat_flow_W": 10.1,
+      "oes": {
+        "residual": null,
+        "worst_component": null,
+        "event": null
+      }
+    }
+  ]
+}
