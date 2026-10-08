@@ -5,7 +5,7 @@
 [![CI](https://github.com/sparkainlp-x/thermoelectric-ledger/actions/workflows/ci.yml/badge.svg)](https://github.com/sparkainlp-x/thermoelectric-ledger/actions/workflows/ci.yml)
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python 3.10–3.12](https://img.shields.io/badge/python-3.10%E2%80%933.12-blue.svg)
-DOI pending
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23241554.svg)](https://doi.org/10.5281/zenodo.23241554)
 
 Research software from Spark AI NLP (Fredericton, New Brunswick, Canada).
 `thermoelectric_ledger.py` is a single-file, standard-library-only, **read-only**
@@ -165,8 +165,9 @@ read it as a GUM coverage interval.
 
 ## Citation
 
-See [`CITATION.cff`](CITATION.cff). A Zenodo DOI will be added here once a
-release has been archived; until then: DOI pending.
+See [`CITATION.cff`](CITATION.cff). Archived on Zenodo: concept DOI
+[10.5281/zenodo.23241554](https://doi.org/10.5281/zenodo.23241554) (all versions); v0.1.0:
+[10.5281/zenodo.23241555](https://doi.org/10.5281/zenodo.23241555).
 
 Jean-François Brisson, Spark AI NLP, Fredericton, New Brunswick, Canada —
 ORCID [0009-0000-9778-5374](https://orcid.org/0009-0000-9778-5374).

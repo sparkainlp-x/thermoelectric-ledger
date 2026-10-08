@@ -27,5 +27,13 @@ keywords:
   - signed measurements
   - New Brunswick
 license: MIT
+doi: 10.5281/zenodo.23241554
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23241554
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: 10.5281/zenodo.23241555
+    description: "Version DOI for v0.1.0"
 version: "0.1.0"
 date-released: "2026-10-08"
